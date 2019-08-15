@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+                  prism:ViewModelLocator.AutowireViewModel="True"
+                  xmlns:views="clr-namespace:XF4iOSTest.Views" x:Class="XF4iOSTest.Views.MainPage">
+    <MasterDetailPage.Master>
+        <!--<views:MenuPage />-->
+        <ContentPage>
+
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage>
+
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    <!--<MasterDetailPage.Detail>
+        <NavigationPage>
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png" />
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:ItemsPage />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>-->
+</MasterDetailPage>
